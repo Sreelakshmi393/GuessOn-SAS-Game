@@ -75,6 +75,7 @@ def hangman() :
                 print("-------------------")
                 print("       \O/ |          ")
                 print("        |            ")
+            
                 print("       / \          ")
             if turns==1:
                 print("1 turn left!!")
@@ -86,6 +87,7 @@ def hangman() :
                 print("you lose!!")
                 print("you let a poor man die")
                 print("The correct word was",word)
+                print("------------------------")
                 print("          O_|          ")
                 print("         /|\            ")
                 print("         / \          ")
