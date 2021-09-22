@@ -85,7 +85,7 @@ def hangman() :
                 print("       / \          ")
             if turns==0:
                 print("you lose!!")
-                print("you let a poor man die")
+                print("Oops, The hangman game is over")
                 print("The correct word was",word)
                 print("------------------------")
                 print("          O_|          ")
@@ -93,8 +93,8 @@ def hangman() :
                 print("         / \          ")
                 break
                                 
-name=input("ENTER YOUR NAME")
+name=input("PLEASE ENTER YOUR NAME")
 print("Welcome",name ,"!!")
 print("---------------------------")
-print("try to guess the word in less than 10 attempts")
+print(name,",try to guess the word in less than 10 attempts")
 hangman()
