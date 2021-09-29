@@ -18,16 +18,16 @@ def hangman() :
                 main_word = main_word + "_ "
         if main_word ==word:
             print(main_word)
-            print("you won!!")
+            print("You Won!!")
             break
         
-        print("guess the words ",main_word)
+        print("Guess the words ",main_word)
         guess = input()
 
         if guess in valid_entry:
             guessmade = guessmade + guess
         else:
-            print("enter a valid entry")
+            print("Enter a valid entry")
             guess= input()
 
         if guess not in word:
@@ -84,8 +84,8 @@ def hangman() :
                 print("        |            ")
                 print("       / \          ")
             if turns==0:
-                print("you lose!!")
-                print("Oops, The hangman game is over")
+                print("You Lose!!")
+                print("Oops, The Hangman Game is over")
                 print("The correct word was",word)
                 print("------------------------")
                 print("          O_|          ")
