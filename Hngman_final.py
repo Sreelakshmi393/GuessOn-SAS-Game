@@ -96,5 +96,5 @@ def hangman() :
 name=input("PLEASE ENTER YOUR NAME")
 print("Welcome",name ,"!!")
 print("---------------------------")
-print(name,",try to guess the word in less than 10 attempts")
+print(name,",Try to guess the word in less than 10 attempts")
 hangman()
