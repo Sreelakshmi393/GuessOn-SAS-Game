@@ -17,7 +17,7 @@ And that's the end of the game.
 
 
 # FLOWCHART ON THE WORKING OF HANGMAN GAME #
-![Screenshot (1681)](https://user-images.githubusercontent.com/87942525/135223393-ae56e766-ce18-4f82-a43d-88b355dfea05.png)
+![Screenshot (1683)](https://user-images.githubusercontent.com/87942525/135232160-89b193c1-5116-4dce-93c4-2b4e497b7e4f.png)
 
 *Prepared by:*
 
